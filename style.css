@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  /* height: 650px; */
+  width: 413px;
+  background-color: #000;
+  display: flex;
+  border: 10px solid #2f2f2f;
+  border-radius: 4px;
+}
+
+.calculator-inner {
+  margin-left: 15px;
+  align-self: flex-end;
+  /* margin-bottom: 85px; */
+}
+
+.display {
+  /* margin-left: 22.5px; */
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: end;
+  background-color: #b1b9b7;
+  padding: 0 7.5px;
+}
+
+.display-num {
+  font-size: 75px;
+  font-weight: 300;
+  color: #000;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.key {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  /* background-color: rgb(51, 51, 51); */
+  margin-right: 14.5px;
+  margin-bottom: 14.5px;
+  font-size: 30px;
+  border: none;
+  background-color: #ca2121;
+}
+
+.key:active {
+  background-color: rgb(115, 115, 115);
+}
+
+.large-key {
+  width: 184.5px;
+  border-radius: 42.5px;
+}
+
+.operator-key {
+  background-color: rgb(255, 158, 8);
+}
+
+.operator-key:active {
+  background-color: rgb(252, 198, 141);
+}
+
+.operator-key.clicked {
+  color: rgb(255, 158, 8);
+  background-color: #fff;
+}
+
+.function-key {
+  background-color: rgb(165, 165, 165);
+  color: #000;
+}
+
+.function-key:active {
+  background-color: rgb(217, 216, 217);
+}
